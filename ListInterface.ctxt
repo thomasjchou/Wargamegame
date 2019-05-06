@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ListInterface
+comment1.params=
+comment1.target=boolean\ isEmpty()
+comment1.text=\ return\ true\ if\ the\ size\ of\ the\ list\ is\ 0\r\n
+comment2.params=
+comment2.target=int\ size()
+comment2.text=\ return\ size\ of\ list\ (number\ of\ elements\ in\ the\ list\r\n
+comment3.params=index\ item
+comment3.target=void\ add(int,\ java.lang.Object)
+comment3.text=\ add\ specified\ item\ at\ specified\ index,\ index\ is\ 1\ based\r\n\ \ \ \ \ \ @param\ index,\ location\ to\ add\ item\ (1\ based)\r\n\ \ \ \ \ \ @param\ item,\ data\ to\ be\ added\ to\ list\ \r\n\ \ \ \ \ \ @throws\ ListIndexOutOfBoundsException\ if\ index\ <1\ or\ list\ >\ size\r\n
+comment4.params=index
+comment4.target=java.lang.Object\ get(int)
+comment4.text=\ return\ item\ at\ specified\ index,\ index\ is\ 1\ based\r\n\ \ \ \ \ \ @param\ index\ -\ location\ of\ requested\ item\r\n\ \ \ \ \ \ @return\ data\ of\ item\ at\ index\ specified\r\n\ \ \ \ \ \ @throws\ ListIndexOutOfBoundsException\ if\ index\ <1\ or\ list\ >\ size\r\n\ \ \ \r\n
+comment5.params=index
+comment5.target=void\ remove(int)
+comment5.text=\ remove\ item\ at\ specified\ index,\ index\ is\ 1\ based\r\n\ \ \ \ \ \ @param\ index\ -\ location\ of\ item\ to\ be\ removed\r\n\ \ \ \ \ \ @throws\ ListIndexOutOfBoundsException\ if\ index\ <1\ or\ list\ >\ size\r\n
+comment6.params=
+comment6.target=void\ removeAll()
+comment6.text=\ remove\ all\ items\ from\ the\ list\r\n
+numComments=7
